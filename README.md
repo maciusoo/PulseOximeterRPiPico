@@ -1,6 +1,6 @@
 # Pulse Oximeter Project
 
-A low-cost, reliable pulse oximeter designed using optoelectronic and photonic components. Built with the Raspberry Pi Pico and powered by AAA batteries, this device measures blood oxygen saturation (SpO₂) and heart rate (BPM) in real-time and displays the data on an OLED screen.
+A low-cost, reliable pulse oximeter designed using optoelectronic and photonic components. Built with the Raspberry Pi Pico H and powered by 3 AAA batteries, this device measures blood oxygen saturation (SpO₂) and heart rate (BPM) in real-time and displays the data on an OLED screen.
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ A low-cost, reliable pulse oximeter designed using optoelectronic and photonic c
 
 ## Project Overview
 
-This project is a student-built pulse oximeter that detects blood oxygen saturation and pulse rate using a phototransistor and alternating red/IR LEDs. It leverages a Raspberry Pi Pico 2 and an SSD1306 OLED display, enclosed in a custom-designed mechanical casing.
+This project is a student-built pulse oximeter that detects blood oxygen saturation and pulse rate using a phototransistor and alternating red/IR LEDs. It leverages a Raspberry Pi Pico H and an SSD1306 0.96" OLED display, enclosed in a custom-designed mechanical casing.
 
 ---
 
@@ -38,18 +38,18 @@ Pulse oximetry relies on the differential absorption of red and infrared light b
 
 ### Design
 - Red and IR LEDs, phototransistor for detection.
-- Raspberry Pi Pico 2 for signal processing.
+- Raspberry Pi Pico H for signal processing.
 - 0.96" OLED screen for GUI.
 
 ---
 
 ## Hardware Description
 
-- **Microcontroller:** Raspberry Pi Pico 2
+- **Microcontroller:** Raspberry Pi Pico H
 - **Sensors:** Red and IR LEDs, SFH 313 FA phototransistor
 - **Display:** OLED SSD1306 (128x64)
 - **Power:** 3 × AAA batteries (4.5V)
-- **Enclosure:** Modified hair clip inside a custom box
+- **Enclosure:** Modified nail clip inside a custom box
 
 ### Electrical Schematic
 
@@ -170,6 +170,6 @@ The full source code is available in the [`pulse_oximeter.py`](./pulse_oximeter.
 
 ---
 
-> Developed by Bartosz Piotrowski & Maciej Otwiaska  
+> Developed by Maciej Otwiaska & Bartosz Piotrowski  
 > Optoelectronics Project, Group E22 – 2024  
 > Laboratory of Optoelectronics and Photonics, Chair of Electronic and Photonic Metrology
